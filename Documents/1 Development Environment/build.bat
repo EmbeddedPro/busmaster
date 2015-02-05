@@ -1,5 +1,8 @@
 @echo off
 
+rem if java home is already defined somewhere else
+if exist "%JAVA_HOME%\lib\tools.jar" goto SERNA_FIND
+
 :JAVA_FIND
 for /d %%i in ("%ProgramFiles%\Java\jdk*") do set JAVA_HOME=%%i
 if exist "%JAVA_HOME%\lib\tools.jar" goto SERNA_FIND

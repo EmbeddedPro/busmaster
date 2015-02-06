@@ -3,9 +3,15 @@
 
 class CRadixEditEx : public CRadixEdit
 {
+	DECLARE_DYNAMIC(CRadixEditEx);
 public:
 	CRadixEditEx(void);
 	virtual ~CRadixEditEx(void);
-	virtual BOOL PreTranslateMessage(MSG* pMsg);
+	BOOL PreTranslateMessage(MSG* pMsg);
+
+protected:
+
+	afx_msg void OnChar(UINT nChar, UINT nRepCnt, UINT nFlags);
+	DECLARE_MESSAGE_MAP()
 };
 

@@ -369,3 +369,5 @@ Tests/PMD/cpd.html
 Tests/PMD/cpd.xml
 Tests/PMD/cpd-fixed.xml
 Tests/Requirements Traceability Matrix/report.html
+busmaster_debug
+Sources/BIN/

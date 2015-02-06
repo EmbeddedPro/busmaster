@@ -72,10 +72,6 @@ public:
 
     virtual ~CRadixEdit();
 
-	virtual BOOL PreTranslateMessage(MSG* pMsg) 
-	{ 
-		return CEdit::PreTranslateMessage(pMsg); 
-	}
     // Generated message map functions
 protected:
     //{{AFX_MSG(CRadixEdit)

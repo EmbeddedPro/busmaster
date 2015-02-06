@@ -89,6 +89,9 @@
     <ClCompile Include="ColumnTreeWnd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RadixEditEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlphanumiricEdit.h">
@@ -173,6 +176,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ColumnTreeWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RadixEditEx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

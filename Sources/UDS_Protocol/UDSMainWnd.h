@@ -10,6 +10,7 @@
 #include "UDS_Resource.h"
 #include "UDS_Protocol.h"
 #include "Utility/RadixEdit.h"
+#include "Utility/RadixEditEx.h"
 #include "UDSWnd_Defines.h"
 #include "DataTypes/UDS_DataTypes.h"
 #include "DataTypes/MsgBufFSE.h"
@@ -71,7 +72,8 @@ public:
     CRadixEdit m_omCanID;
     CRadixEdit m_omEditDLC;
     UINT m_stringEditDLC;
-    CRadixEdit  m_omEditMsgData;
+    //CRadixEdit  m_omEditMsgData;
+	CRadixEditEx  m_omEditMsgData;
     CString m_omMsgDataEdit;
     CString  m_abDatas;
     CButton m_omCheckTP;

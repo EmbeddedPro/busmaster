@@ -154,6 +154,7 @@ iconv.lib %(AdditionalOptions)</AdditionalOptions>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='busmaster_debug|Win32'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="RadixEditEx.cpp" />
     <ClCompile Include="SignalMatrix.cpp" />
     <ClCompile Include="UtilFunctions.cpp" />
     <ClCompile Include="Utility.cpp" />
@@ -182,6 +183,7 @@ iconv.lib %(AdditionalOptions)</AdditionalOptions>
     <ClInclude Include="NumSpinCtrl.h" />
     <ClInclude Include="OffScreenDC.h" />
     <ClInclude Include="RadixEdit.h" />
+    <ClInclude Include="RadixEditEx.h" />
     <ClInclude Include="SignalMatrix.h" />
     <ClInclude Include="UtilFunctions.h" />
     <ClInclude Include="Utility.h" />

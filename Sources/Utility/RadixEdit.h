@@ -34,6 +34,7 @@ static const int MINUS_SIGN        = 0x2D;
 static const int BACK_SPACE        = 0x08;
 static const int DECIMAL_POINT     = 0x2E;
 
+#include <afxwin.h>
 
 /////////////////////////////////////////////////////////////////////////////
 // CRadixEdit window

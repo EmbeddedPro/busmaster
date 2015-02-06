@@ -89,13 +89,13 @@ END_MESSAGE_MAP()
 CUDS_Protocol::CUDS_Protocol()
 {
     omManagerPtr=this;
-    SourceAddress =0;
-    TargetAddress =0;
+    SourceAddress = 0xB;
+    TargetAddress = 0x8B;
     fInterface = INTERFACE_NORMAL_11;
-    MsgID = 0x700;
+    MsgID = 0x60B;
     numberOfBytes = 1;
     Data_Recibida = "";
-    Current_Channel=1 ;
+    Current_Channel = 2 ;
 }
 
 // The one and only CUDS_Protocol object

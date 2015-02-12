@@ -421,6 +421,7 @@ void CUDSSettingsWnd::OnCbnSelchangeComboInterface()
 {
     //Set From address field readonly
     //m_omFromEdit.SetReadOnly(TRUE);
+	ASSERT(UdsProtocolPtr != NULL);
 
     m_nInterfaceIndex = m_omInterface.GetCurSel();
     //UdsProtocolPtr->fInterface = sg_asSupportedInterface[m_nInterfaceIndex].m_eType;  //Lo coloco acá para modificar cosas en el MainWnd

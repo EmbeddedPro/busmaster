@@ -1319,3 +1319,10 @@ INT CCANMonitorApp::COM_nSaveConfiguration(CString omStrCfgFilename)
     CConfigData::ouGetConfigDetailsObject().vSaveConfigFile();
     return defCONFIG_FILE_SUCCESS;
 }
+
+BOOL CCANMonitorApp::ProcessMessageFilter(int code, LPMSG lpMsg)
+{
+	// Check to see if the modal dialog box is up
+	
+	return CWinApp::ProcessMessageFilter(code, lpMsg);
+}

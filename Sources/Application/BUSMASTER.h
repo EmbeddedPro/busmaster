@@ -90,6 +90,8 @@ public:
     INT COM_nSaveConfiguration(CString omStrCfgFilename);
     BOOL bWriteIntoTraceWnd(char* omText, BOOL bTrace = TRUE);
 
+	BOOL ProcessMessageFilter(int code, LPMSG lpMsg);
+
 private:
     BOOL bInitialiseConfiguration(BOOL bFromCom);
     void vSetFileStorageInfo(CString oCfgFilename);

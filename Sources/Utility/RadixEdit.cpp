@@ -506,3 +506,10 @@ void CRadixEdit::vSetConfigData(int CtrlID)
 {
     m_nCtrlID = CtrlID;
 }
+
+
+BOOL CRadixEdit::PreTranslateMessage(MSG* pMsg)
+{
+	//return CRadixEdit::PreTranslateMessage(pMsg);
+	return true;
+}

@@ -339,8 +339,8 @@ void CUDSSettingsWnd::vInitializeUDSSettingsfFields()
     m_omReqCanID.vSetBase(BASE_HEXADECIMAL);
     m_omRespCanID.vSetBase(BASE_HEXADECIMAL);
 
-    m_omReqCanID. LimitText(3);
-    m_omRespCanID. LimitText(3);
+    m_omReqCanID.LimitText(3);
+    m_omRespCanID.LimitText(3);
 
     m_omReqCanID.vSetSigned(false);
     m_omRespCanID.vSetSigned(false);
